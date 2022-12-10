@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de textos</title>
+    <style>
+        mark {
+            background-color: aquamarine;
+        }
+        h2{
+            font: 20pt Arial;
+        }
+        p{
+            font: 15pt normal Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>PRINCIPAIS FORMATAÇÕES</h1>
+    <h2>Negrito</h2>
+    <p>Este é um <b>texto em negrito</b> não semântico</p> <!--Usando a tag <b> *não é muito usada mais*-->
+    <p>Este é um <strong>texto em destaque</strong> com semântica</p> <!--Usando a tag <strong>-->
+    <h2>Itálico/Ênfase</h2>
+    <p>Este é um <i>texto em itálico</i> não semântico</p> <!--Usando a tag <i> *não é muito usado-->
+    <p>Este é um <em>texto em ênfase</em> com semântica</p> <!--Usando a tag <em>-->
+    <h2>Texto Marcado</h2>
+    <p>Este é um <mark>texto com marcação</mark>, onde é possível alterar a cor de sua marcação com CSS</p> <!--usando a tag <mark>-->
+        <!--A alteração da cor da marcação é feita de forma mais eficiente usando o seletor na head-->
+    <h2>Textos grandes e pequenos</h2>
+    <p>Este é um <big>texto grande</big> usando uma tag obsoleta mas que ainda funciona</p> <!--Usando a tag <big> *ATENÇÃO ao uso de tags obsoletas-->
+    <p>Este é um <small>texto pequeno</small></p> <!--usando a tag <small> *se trata de uma tag com semântica-->
+    <h2>Texto deletado e texto inserido</h2>
+    <p>Se trata de textos que aparecem mas devem ser <del>ignorados</del> ou que foram <ins>inseridos</ins> posteriormente</p> <!--Semelhante à tag <ins> pode se usar a tag <u> para sublinhar um texto porém é uma tag não semântica-->
+    <h2>Texto sobrescrito e texto subscrito</h2>
+    <p>Este tipo de formatação é usada para textos como H<sub>2</sub>0 e x<sup>2</sup>, respectivamente</p> <!--Usando as tags <sup> e <sub>-->
+</body>
+</html>
