@@ -8,16 +8,26 @@
     <style>
         /*Anotar a função de cada background*/
         body{ 
+
             height: 100vh;
+             
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; /*mantem o fundo fixo. No caso do 'scrool', o fundo rola junto.*/
+            /*Shorthand - background:
+            color > image > repeat > [size] > attachment
+            *o size não ta pegando no shorthand ainda*
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+            */
         }
         main{
             background-color: white;
-            width: 400px;
+            min-width: 250px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +38,7 @@
 <body>
     <main>
         <h1>Teste com imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere tempore commodi itaque voluptatum modi porro accusantium tenetur maxime quam molestiae dignissimos quis quisquam eius corporis, quaerat quasi minima quae nulla? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, id dolorum. Natus dolorum omnis a voluptates nam consequatur ipsum sapiente quibusdam aliquam esse sed, obcaecati nisi atque! Accusantium, neque porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ullam accusantium eligendi non repellendus temporibus voluptatibus minima corrupti! Architecto, placeat. Eaque, cum culpa provident maiores totam ratione. Expedita, architecto sunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere tempore commodi itaque voluptatum modi porro accusantium tenetur maxime quam molestiae dignissimos quis quisquam eius corporis, quaerat quasi minima quae nulla? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, id dolorum. Natus dolorum omnis a voluptates nam consequatur ipsum sapiente quibusdam aliquam esse sed, obcaecati nisi atque! Accusantium, neque porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ullam accusantium eligendi non repellendus temporibus voluptatibus minima corrupti! Architecto, placeat. Eaque, cum culpa provident maiores totam ratione. Expedita, architecto sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere tempore commodi itaque voluptatum modi porro accusantium tenetur maxime quam molestiae dignissimos quis quisquam eius corporis, quaerat quasi minima quae nulla? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, id dolorum. Natus dolorum omnis a voluptates nam consequatur ipsum sapiente quibusdam aliquam esse sed, obcaecati nisi atque! Accusantium, neque porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ullam accusantium eligendi non repellendus temporibus voluptatibus minima corrupti! Architecto, placeat. Eaque, cum culpa provident maiores totam ratione. Expedita, architecto sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere tempore commodi itaque voluptatum modi porro accusantium tenetur maxime quam molestiae dignissimos quis quisquam eius corporis, quaerat quasi minima quae nulla? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, id dolorum. Natus dolorum omnis a voluptates nam consequatur ipsum sapiente quibusdam aliquam esse sed, obcaecati nisi atque! Accusantium, neque porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ullam accusantium eligendi non repellendus temporibus voluptatibus minima corrupti! Architecto, placeat. Eaque, cum culpa provident maiores totam ratione. Expedita, architecto sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere tempore commodi itaque voluptatum modi porro accusantium tenetur maxime quam molestiae dignissimos quis quisquam eius corporis, quaerat quasi minima quae nulla? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, id dolorum. Natus dolorum omnis a voluptates nam consequatur ipsum sapiente quibusdam aliquam esse sed, obcaecati nisi atque! Accusantium, neque porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ullam accusantium eligendi non repellendus temporibus voluptatibus minima corrupti! Architecto, placeat. Eaque, cum culpa provident maiores totam ratione. Expedita, architecto sunt</p>
     </main>
 </body>
 </html>
