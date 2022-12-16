@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{ /*configuração global*/
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh; /*ocupa 100% da viewport*/ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header h1{
+    padding-top: 40px;
+    font-variant: small-caps; /*deixa a fonte em capslock porém com as iniciais maiores*/ 
+    font-size: 10vw; /*a letra vai se adaptar a largura da tela*/
+}
+
+header > p {
+    padding-top: 5px;
+    padding-bottom: 50px;    
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh; /*10% da viewport*/
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em; /*espaçamento entre as linhas*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw; /*a letra terá 5% da viewport se adaptando ao tamanho da tela*/
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(73, 72, 72);
+    color: white;
+}
+
+section.imagem > p{
+    display: inline-block; /*a caixa será criada conforme o tamanho da fonte*/
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 15px;    
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
