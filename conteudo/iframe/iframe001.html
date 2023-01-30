@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de iframes</title>
+    <style>
+        iframe {
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo a utilizar o iframe</h1>
+    <!-- O tamanho padrão do iframe é 300x150-->
+    <p>Acessando o site do CursoEmVideo <iframe src="https://www.cursoemvideo.com/" frameborder="0" height="500"></iframe></p>
+    <p>O site do google também é legal porém nem todo site aceita acesso por iframe <iframe src="https://www.google.com/" frameborder="0" height="500" width="500"><a href="https://www.google.com/">Google</a></iframe></p>
+    <!-- O <a> vai ser usado caso o navegador n seja compatível com iframe, então vai aparecer o link que redirecionará para a página em questão-->
+</body>
+</html>
