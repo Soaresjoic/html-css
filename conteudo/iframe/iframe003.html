@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação no iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe {
+            width: 90vw;
+            height: 400px;
+            border: 2px solid black;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque nisi sequi. Deserunt, quaerat repellat quod, voluptate repudiandae non pariatur eveniet voluptates accusantium voluptatibus fugiat magni voluptas quas sed nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laudantium recusandae blanditiis quis expedita, distinctio doloribus ipsam cum debitis aliquid et culpa sunt minima atque porro dignissimos ullam! Tenetur, cum?</p>
+    <ul>
+        <li><a href="paginas/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate iusto nobis quae odit quas, maiores perspiciatis laudantium dolore, dolor, repudiandae nemo magnam consectetur doloribus quasi dicta delectus vero atque odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam voluptatem cumque, iusto ex rerum quod laboriosam! Molestiae repellendus nobis alias aliquam accusamus tempora ab molestias aspernatur, exercitationem, quam veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cumque obcaecati ea tenetur dicta, ad dignissimos praesentium laborum, optio aliquam, exercitationem natus impedit numquam dolorem vero debitis ex libero beatae?</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha algum item da lista</h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate iusto nobis quae odit quas, maiores perspiciatis laudantium dolore, dolor, repudiandae nemo magnam consectetur doloribus quasi dicta delectus vero atque odio.</p><img src='imagens/git.png'>">
+        <p>Infelizmente seu navegador não é compatível com iframes</p>
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate iusto nobis quae odit quas, maiores perspiciatis
+        laudantium dolore, dolor, repudiandae nemo magnam consectetur doloribus quasi dicta delectus vero atque odio. Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam voluptatem cumque, iusto ex rerum quod
+        laboriosam! Molestiae repellendus nobis alias aliquam accusamus tempora ab molestias aspernatur, exercitationem,
+        quam veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cumque obcaecati ea tenetur dicta,
+        ad dignissimos praesentium laborum, optio aliquam, exercitationem natus impedit numquam dolorem vero debitis ex
+        libero beatae?</p>
+</body>
+</html>
